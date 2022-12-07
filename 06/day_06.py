@@ -4,6 +4,7 @@ def read_file():
 
 
 def is_marker(chars):
+    # A set removes the duplicates
     return len(chars) == len(set(chars))
 
 

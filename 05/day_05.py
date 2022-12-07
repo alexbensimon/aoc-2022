@@ -1,11 +1,11 @@
 import re
 
+# Quicker to copy this part of the input than parsing it
 stacks_test = [
     "ZN",
     "MCD",
     "P",
 ]
-
 stacks_input = [
     "RNFVLJSM",
     "PNDZFJWH",
@@ -36,6 +36,7 @@ def part_1():
     for line in lines:
         moves, origin, dest = parse_line(line)
         for _ in range(moves):
+            # Take the last item of the origin stack and append it to the dest stack
             stacks[dest - 1].append(stacks[origin - 1].pop())
     res = "".join(map(lambda stack: stack[-1], stacks))
     print(res)
