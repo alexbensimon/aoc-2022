@@ -27,5 +27,5 @@ def part_2():
     find_marker(14)
 
 
-# part_1()
-# part_2()
+part_1()
+part_2()
