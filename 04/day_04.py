@@ -41,5 +41,5 @@ def part_2():
     print(len(overlap))
 
 
-# part_1()
+part_1()
 part_2()
