@@ -1,5 +1,5 @@
 def read_file():
-    with open("test.txt") as file:
+    with open("input.txt") as file:
         return file.read().strip().split("\n")
 
 
@@ -30,5 +30,5 @@ def part_2():
     print(sum_priorities)
 
 
-# part_1()
-# part_2()
+part_1()
+part_2()
