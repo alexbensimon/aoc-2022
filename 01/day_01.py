@@ -17,5 +17,5 @@ def part_2():
     print(highest_3)
 
 
-# part_1()
-# part_2()
+part_1()
+part_2()
