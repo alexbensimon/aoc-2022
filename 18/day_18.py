@@ -104,5 +104,5 @@ def part_2():
     print(exterior_surface_area)
 
 
-# part_1()
+part_1()
 part_2()
