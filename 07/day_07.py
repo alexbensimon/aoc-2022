@@ -1,4 +1,3 @@
-import pprint
 import re
 from functools import reduce
 
@@ -54,7 +53,6 @@ def compute_size(fs, dir):
 
 def part_1():
     fs = build_fs()
-    # pprint.pprint(fs)
 
     sizes = map(lambda key: compute_size(fs, key), fs.keys())
     res = sum(filter(lambda size: size <= 100000, sizes))
