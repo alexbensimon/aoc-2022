@@ -44,5 +44,5 @@ def part_2():
     print(x + y + z)
 
 
-# part_1()
+part_1()
 part_2()
