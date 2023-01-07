@@ -1,5 +1,4 @@
 import re
-import time
 import functools
 
 
@@ -78,7 +77,5 @@ def part_2():
     print(max_release("AA", frozenset(), 26, True))
 
 
-start = time.process_time()
-# part_1()
+part_1()
 part_2()
-print(time.process_time() - start)
