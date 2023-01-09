@@ -74,7 +74,6 @@ def part_2():
     beacon = None
     x, y = (0, 0)
     while x < max or y < max:
-        print(x, y)
         if x > max:
             x = 0
             y += 1
@@ -88,10 +87,9 @@ def part_2():
             beacon = (x, y)
             break
 
-    print(beacon)
     x, y = beacon
     print(x * 4000000 + y)
 
 
-# part_1()
+part_1()
 part_2()
